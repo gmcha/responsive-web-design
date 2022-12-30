@@ -45,3 +45,30 @@ div.contact img{
     height: 20px;
     margin: 19.920px 5px;
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.webName {
+        
+    }
+
+    ol.menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0;
+    }
+
+    ol.menu li {
+        padding: 10px 0px;
+    }
+
+    div.contact {
+        display: flex;
+        justify-content: center;
+    }
+}
