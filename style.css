@@ -1,0 +1,52 @@
+* {
+    /* 끝에 여백 없애기 */
+    /* change font */
+}
+
+a {
+    text-decoration: none;
+    color: #f0f4f5;
+}
+
+._navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #263343;
+}
+
+._logo{
+    padding-left: 8px;
+}
+
+._logo i {
+    color: #d49466;
+}
+
+._menu{
+    display: flex;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+._menu li {
+    padding: 8px 12px;
+}
+
+._menu li:hover{
+    background-color: #d49466;
+    /* 둥근 모서리 처리*/
+}
+
+._contact {
+    padding-right: 10px;
+}
+
+
+._contact i {
+    padding: 8px 5px;
+}
+
+._contact i {
+    color: #f0f4f5;
+}
