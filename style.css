@@ -1,3 +1,9 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #263343;
+    --accent-color: #d49466;
+}
+
 * {
     /* Tells the browser to account for any border and padding in the values you specify for an element's width and height. */
     box-sizing: border-box;
@@ -10,24 +16,24 @@ body {
 
 a {
     text-decoration: none;
-    color:  white;
+    color: var(--text-color);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #263343;
+    background-color: var(--background-color);
     padding: 8px 12px;
 }
 
 .navbar__logo {
     font-size: 24px;
-    color: white;
+    color: var(--text-color);
 }
 
 .navbar__logo i {
-    color: #d49466;
+    color: var(--accent-color);
 }
 
 .navbar__menu{
@@ -47,7 +53,7 @@ a {
 
 .navbar__icons {
     list-style-type: none;
-    color: white;
+    color: var(--text-color);
     display: flex;
     padding-left: 0px;
     
@@ -61,7 +67,7 @@ a {
     position: absolute;
     right: 24px;
     font-size: 24px;
-    color: #d49466;
+    color: var(--accent-color);
     display: none;
 }
 
@@ -92,5 +98,10 @@ a {
 
     .navbar__toggleBtn{
         display: block;
+    }
+
+    .navbar__menu.active,
+    .navbar__icons.active {
+        display: flex;
     }
 }
