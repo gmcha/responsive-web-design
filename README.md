@@ -5,3 +5,5 @@
 
 ![alt text](https://github.com/gmcha0323/responsive-web-design/blob/main/wideNavBar.png?raw=true)
 ![alt text](https://github.com/gmcha0323/responsive-web-design/blob/main/withMediaQuery.png?raw=true)
+
+Project Link: https://gmcha0323.github.io/responsive-web-design/
